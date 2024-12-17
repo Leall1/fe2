@@ -1,4 +1,13 @@
-.gradientmenu{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,9,121,1) 20%, rgba(13,16,125,1) 35%, rgba(12,33,137,1) 53%, rgba(9,75,165,1) 71%, rgba(8,92,176,1) 87%, rgba(0,212,255,1) 100%);
+.gradienteMenu {
+  background: rgb(11, 182, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(11, 182, 204, 1) 0%,
+    rgba(176, 195, 199, 1) 100%
+  );
 }
+
+.text-justify {
+  text-align: justify;
+}
+.recuo { text-indent:4em }
