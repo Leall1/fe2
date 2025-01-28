@@ -1,3 +1,7 @@
 function menu(pagina) {
-    $("#conteudo").load("../paginas/" + pagina + ".html");
+    $("#conteudo").slideUp(2000, () => {
+        $("#conteudo").load("../paginas/" + pagina + ".html", () => {
+            $("#conteudo").slideDown(1500);
+        });
+    });
 }
